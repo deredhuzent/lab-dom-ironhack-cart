@@ -2,6 +2,17 @@ input {
   border: solid 1px black;
 }
 
+
+h1{
+  font-size: 40px;
+}
+
+.product{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -24,7 +35,7 @@ input {
   border-radius: 4px;
 }
 
-.btn-success {
+.btn-calculate {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
